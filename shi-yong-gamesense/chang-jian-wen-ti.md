@@ -12,7 +12,9 @@
 
 一些杀毒软件提供非常严格的实时监控/沙盒，这可能会影响客户端。您无需禁用Windows Defender。确保关闭杀毒软件并卸载其驱动程序。您可以在注入后重新打开它们
 
+{% hint style="info" %}
 **已知的不兼容厂家: **Trend Micro, F-Secure, MalwareBytes
+{% endhint %}
 
 ### Windows版本不受支持(Unsupported version of Windows)
 
@@ -26,17 +28,21 @@
 
 任何影响游戏渲染的软件都可能导致问题
 
+{% hint style="info" %}
 **已知的不兼容软件: **Fraps, SweetFX, Discord Overlay, NZXT CAM
 
 **产生的错误代码: **无，游戏会直接崩溃
+{% endhint %}
 
 ### "不支持虚拟机"("Virtual machine not supported")
 
 一些杀毒软件会在虚拟机(沙盒)中运行程序，如果您没有使用杀毒软件，请确保禁用Hyper-V
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
+{% hint style="info" %}
 **已知的不兼容软件: **HitmanPro.Alert
+{% endhint %}
 
 ### 客户端打不开?
 
@@ -90,7 +96,9 @@ Steam->设置->游戏中。在游戏中勾选"在游戏中启用Steam界面"
 
 垂直同步-\[使用3D应用程序设置]
 
+{% hint style="warning" %}
 **确保"程序设置"中的CS:GO设置没有冲突**
+{% endhint %}
 
 ### **初始化失败 \***
 

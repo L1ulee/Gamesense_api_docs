@@ -24,13 +24,13 @@ local function on_paint()
 	-- 修改这些以更改文本的显示方式.margin是与右上角的距离,padding是背景矩形大于文本的大小
 	local margin, padding, flags = 18, 4, nil
 
-	-- 取消"small and capital"风格的注释
+	-- 为"small and capital"风格取消注释
 	-- flags, text = "-", (text:upper():gsub(" ", "   "))
 
-	-- measure text size to properly offset the text from the top right corner
+	-- 测量文本大小以适当地将文本从右上角偏移
 	local text_width, text_height = renderer_measure_text(flags, text)
 
-	-- draw background and text
+	-- 绘制背景和文本
 	renderer_rectangle(screen_width-text_width-margin-padding, margin-padding, text_width+padding*2, text_height+padding*2, 32, 32, 32, 200)
 	renderer_text(screen_width-text_width-margin, margin, 235, 235, 235, 255, flags, 0, text)
 end
